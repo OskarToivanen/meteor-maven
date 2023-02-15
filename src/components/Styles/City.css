@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+.logo p {
+  /* other styles goes here... */
+  display: inline-block;
+}
+.logo input {
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  border-style: hidden;
+  border-bottom: solid lightgray;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo input:focus {
+  outline: none;
+}
+
+form {
+  display: inline-block;
+  font-family: 'Roboto';
+}

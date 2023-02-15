@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+.forecast__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr;
+  gap: 0px 20px;
+  grid-template-areas: '. . . . .';
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300;
+}

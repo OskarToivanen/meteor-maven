@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  align-content: center;
+  align-items: center;
+  grid-template-areas: 'icon temp info';
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: 'Roboto';
+}
+
+.info {
+  grid-area: info;
+  text-align: left;
+}
+
+.temp {
+  grid-area: temp;
+  text-align: center;
+}
+
+.main__temp {
+  font-size: 50px;
+}
+
+.icon {
+  grid-area: icon;
+  text-align: right;
+}
+
+.icon img {
+  width: auto;
+  height: 100px;
+}
+
+.wrapper {
+  text-align: center;
+}
